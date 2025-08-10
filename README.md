@@ -1,2 +1,2 @@
-# Starsoft Backend Challenge!
-### By: Andreas Yuji Fujiki
+# Starsoft Backend Challenge
+> [Challenge details here!](./TEST_DETAILS.md)
