@@ -1,4 +1,4 @@
-> [<<< Voltar ao README.md](./README.md)
+[<<< Voltar ao README.md](./README.md)
 
 # Teste para Desenvolvedor(a) Back-End Node.js/Nest.js
 

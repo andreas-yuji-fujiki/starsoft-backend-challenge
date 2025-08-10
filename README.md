@@ -1,2 +1,2 @@
 # Starsoft Backend Challenge
-> [Challenge details here!](./TEST_DETAILS.md)
+[Challenge details here >>>](./TEST_DETAILS.md)
