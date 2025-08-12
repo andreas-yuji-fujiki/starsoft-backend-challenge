@@ -1,5 +1,7 @@
 import { Module } from '@nestjs/common';
+
 import { TypeOrmModule } from '@nestjs/typeorm';
+import { ElasticsearchModule } from '@nestjs/elasticsearch';
 
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
@@ -22,6 +24,9 @@ import { OrdersModule } from './orders/orders.module';
       synchronize: true,
     }),
     TypeOrmModule.forFeature([Order]),
+    ElasticsearchModule.register({
+      node: process.env.ELASTICSEARCH_NODE || 'http://localhost:9200',
+    }),
     OrdersModule,
   ],
   controllers: [AppController],
